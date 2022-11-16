@@ -1,0 +1,5 @@
+<div class="tag" *ngIf="tags">
+    <a class="tags" *ngFor="let tag of tags" routerLink="/shop/{{tag.name}}">
+        {{tag.name}}
+    </a>
+</div>

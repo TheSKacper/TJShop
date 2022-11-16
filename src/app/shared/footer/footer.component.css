@@ -1,0 +1,29 @@
+.footer
+{
+    overflow: hidden;
+    position: sticky;
+    top: 100%;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+h1
+{
+    font-size: 40px;
+    color: white;
+}
+
+p
+{
+    color: white;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    padding: 0px 8px ;
+    line-height: 70px;
+    font-size: 20px;
+}
+

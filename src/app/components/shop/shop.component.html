@@ -1,0 +1,15 @@
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Our products</h1>
+    <app-search></app-search>
+    <app-tag></app-tag>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let item of product">
+            <div class="itembox">
+                <img src="{{item.image}}" alt="{{item.name}}">
+                <h1>{{item.name}}</h1>
+                <p>{{item.price | currency: 'Zł '}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
